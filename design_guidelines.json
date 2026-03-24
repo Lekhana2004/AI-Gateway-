@@ -1,0 +1,127 @@
+{
+  "project_name": "AI Gateway Routing Model",
+  "design_philosophy": {
+    "identity": "E1: The Anti-AI Designer",
+    "theme": "Technical Swiss in the Dark",
+    "emotional_tone": "Precision, Speed, Trust, High-Tech",
+    "core_principles": [
+      "Fusion over Imitation: Mix Code aesthetic with Swiss precision",
+      "Content is King: Data is the hero",
+      "Negative Space: Value empty areas for focus",
+      "Contrast: High contrast for readability in dark mode"
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Azeret Mono, monospace",
+      "body": "Inter, sans-serif",
+      "code": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-5xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-4xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body_lg": "text-lg leading-relaxed",
+      "body_base": "text-base leading-relaxed",
+      "caption": "text-sm text-muted-foreground",
+      "code_snippet": "text-xs font-mono bg-black/50 p-1 rounded"
+    },
+    "rules": [
+      "Headings MUST use 'Azeret Mono' for a technical feel.",
+      "Body text uses 'Inter' for maximum legibility.",
+      "Use 'JetBrains Mono' for all data values, confidence scores, and code blocks.",
+      "Uppercase labels with wide tracking (tracking-widest) for section headers."
+    ]
+  },
+  "colors": {
+    "palette": {
+      "background": "#050505",
+      "surface": "#0A0A0A",
+      "surface_highlight": "#121212",
+      "border": "#1F1F1F",
+      "text_primary": "#EDEDED",
+      "text_secondary": "#A1A1AA",
+      "primary": "#10B981",
+      "primary_foreground": "#000000",
+      "secondary": "#8B5CF6",
+      "accent": "#F59E0B",
+      "danger": "#EF4444",
+      "success": "#10B981",
+      "info": "#3B82F6"
+    },
+    "usage": {
+      "primary": "Used for 'Fast/Simple' routing signals and primary actions.",
+      "secondary": "Used for 'Complex/GPT-4' routing signals and advanced features.",
+      "accent": "Used for latency warnings and attention grabbers.",
+      "background": "Deepest black for the main app background.",
+      "surface": "Slightly lighter black for cards and containers."
+    },
+    "gradients": {
+      "routing_active": "linear-gradient(90deg, #10B981 0%, #3B82F6 100%)",
+      "complex_tier": "linear-gradient(90deg, #8B5CF6 0%, #EC4899 100%)"
+    }
+  },
+  "spacing_and_layout": {
+    "grid_system": "Bento Grid (Mode B: High Density)",
+    "container_padding": "p-6 md:p-12",
+    "gap_strategy": "gap-4 md:gap-6",
+    "rules": [
+      "Use 'grid-cols-1 md:grid-cols-12' for the main dashboard.",
+      "Routing Interface: col-span-12 lg:col-span-8",
+      "Analytics Sidebar: col-span-12 lg:col-span-4",
+      "Metrics Row: 4 columns of equal width for key stats.",
+      "ALWAYS use responsive padding: 'p-4 md:p-8'."
+    ]
+  },
+  "components": {
+    "cards": {
+      "style": "Flat surface with subtle border.",
+      "classes": "bg-[#0A0A0A] border border-[#1F1F1F] rounded-lg shadow-sm hover:border-primary/50 transition-colors duration-300",
+      "special_variant": "Tracing Beam - Use for active routing result card."
+    },
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium px-6 py-2 shadow-[0_0_10px_rgba(16,185,129,0.2)]",
+      "secondary": "bg-secondary text-white hover:bg-secondary/90 rounded-md font-medium px-6 py-2",
+      "ghost": "hover:bg-white/10 text-white rounded-md px-4 py-2"
+    },
+    "inputs": {
+      "style": "Minimalist, high contrast.",
+      "classes": "bg-black border-border focus:border-primary focus:ring-1 focus:ring-primary text-white placeholder:text-gray-600 font-mono"
+    },
+    "visual_enhancers": {
+      "glassmorphism": "backdrop-blur-md bg-black/70 border-b border-white/10",
+      "glow_effects": "shadow-[0_0_20px_rgba(16,185,129,0.15)]",
+      "scanlines": "Optional: subtle scanline overlay for 'Terminal' sections."
+    }
+  },
+  "motion": {
+    "transition_speed": "duration-200",
+    "easing": "ease-out",
+    "rules": [
+      "All interactive elements MUST have a hover state transition.",
+      "Routing result should animate in (fade + slide up).",
+      "Charts should animate on load."
+    ]
+  },
+  "images": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1672623761758-c0dee2ce4c9d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMG5ldXJhbCUyMG5ldHdvcmslMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzQzMjM0ODF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Abstract neural network smoke on black background. Use as subtle background with low opacity (10-20%) overlay."
+    },
+    "server_texture": {
+      "url": "https://images.unsplash.com/photo-1680992046626-418f7e910589?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwzfHxjeWJlcnB1bmslMjBzZXJ2ZXIlMjByb29tJTIwYWVzdGhldGljfGVufDB8fHx8MTc3NDMyMzQ4Mnww&ixlib=rb-4.1.0&q=85",
+      "description": "Server rack lights. Use for 'Infrastructure' or 'Model Status' section headers."
+    }
+  },
+  "universal_guidelines": [
+    "DO NOT use generic centered layouts. Use asymmetry.",
+    "Dark Mode is mandatory. Ensure text contrast is high (WCAG AA).",
+    "Use 'sonner' for toast notifications.",
+    "Use 'recharts' or 'shadcn/charts' for data visualization.",
+    "Every interactive element must have 'data-testid'.",
+    "Avoid 'Inter' for headings. Use 'Azeret Mono'.",
+    "Do not use gradients for text, only for borders or backgrounds.",
+    "Use 'lucide-react' for icons."
+  ],
+  "instructions_to_main_agent": "Implement the dashboard using the defined color palette and typography. Focus on the 'Routing Interface' as the hero element. Use the 'Bento Grid' layout for the analytics section. Ensure the 'MiniLM' and 'GPT-4' routing logic is visualized clearly with the color coding (Green for Simple, Purple for Complex)."
+}
