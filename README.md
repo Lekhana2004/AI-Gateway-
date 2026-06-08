@@ -220,6 +220,3 @@ Assuming:
 
 MIT
 
----
-
-Built with ❤️ by Emergent AI
